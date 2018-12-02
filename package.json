@@ -1,0 +1,32 @@
+{
+  "name": "my-inventory-app",
+  "version": "1.0.0",
+  "description": "Test out some caching strategies in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psycho5/my-inventory-app.git"
+  },
+  "keywords": [
+    "caching",
+    "node"
+  ],
+  "author": "Sagar Baver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psycho5/my-inventory-app/issues"
+  },
+  "homepage": "https://github.com/psycho5/my-inventory-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "flat-cache": "^1.3.4",
+    "memcached": "^2.2.2",
+    "memory-cache": "^0.2.0",
+    "redis": "^2.8.0",
+    "sqlite3": "^4.0.4"
+  }
+}
